@@ -1,0 +1,4 @@
+{
+    "jwtPrivateKey" : "property_jwtPrivateKey",
+    "mongoDbConnection":"property_db"
+}

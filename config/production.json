@@ -1,0 +1,7 @@
+{
+    "name":"propertycoid backend server",
+    "mail":{
+        "host":"dev-mail-server"
+    },
+    "mongoDbConnection":""
+}
