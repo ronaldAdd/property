@@ -3,5 +3,5 @@
     "mail":{
         "host":"dev-mail-server"
     },
-    "mongoDbConnection":""
+    "mongoDbConnection":"mongodb+srv://ronald:ronald123@cluster0.izek1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 }
