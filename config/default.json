@@ -1,0 +1,4 @@
+{
+    "jwtPrivateKey" : "kodok",
+    "mongoDbConnection":"property_db"
+}
