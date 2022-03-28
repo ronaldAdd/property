@@ -56,6 +56,7 @@ const mailgun = require('../function/mail')
     dataEmail.push({"to" : checkUser.email,"from" : 'support@example.com',"type" : 'forgot-password',"subject" : "Your property.co.id password reset request","body" : "<div class=\"entry\"> <p>A request has been received to change the password for your property.co.id account.</p>"+ '<a href="http://localhost:3030/api/auth/reset-password?token='+randomToken + '" rel="noopener noreferrer">Reset Password</a>' +"<div class=\"body\"></div> </div>"
   })
     let statusEmail =  await mailgun.sendEmail(dataEmail)
+    console.log(statusEmail)
     res.status(200).send(statusEmail);
   })
 
